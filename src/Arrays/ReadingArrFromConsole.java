@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction;
@@ -19,5 +20,6 @@ public class ReadingArrFromConsole {
 			array[i] = input.nextInt();
 		}
 		System.out.println(java.util.Arrays.toString(array));
+
 	}
 }
