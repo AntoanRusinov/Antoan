@@ -25,12 +25,6 @@ public class ArrayListt {
 			System.out.println(value);
 		}
 
-		// This is VERY slow, if we want to remove an items from the beginning
-		// and in the middle, it is very slow
-		// We can only remove items from the end!!! If we want to remove from
-		// middle and the end we use LinkedList!
-		// Check this out in the next tutorial...
-
 		System.out.println("Iteration 3#: ");
 		numbers.remove(0);
 
