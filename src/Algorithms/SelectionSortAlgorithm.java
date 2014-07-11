@@ -6,7 +6,7 @@ public class SelectionSortAlgorithm {
 
 	public static void main(String[] args) {
 
-		int[] array = new int[] { 64, 25, 12, 22, 11 };
+		int[] array = { 64, 25, 12, 22, 11 };
 		
 		for (int i = 0; i < array.length; i++) {
 			for (int  k = i + 1; k < array.length; k++) {

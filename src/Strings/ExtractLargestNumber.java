@@ -4,7 +4,8 @@ public class ExtractLargestNumber {
 
 	public static void main(String[] args) {
 
-		String text = "Dj  	859351,.’gdsponuh--52378jfsknf /!@#$%^&*()_+][';/.,*-+123!%@%&(*&^%)(^$*(*&^%00532fs";
+		String text = "Dj  	859351,.’gdsponuh--52378jfsknf /!@#$%^&*"
+				+ "()_+][';/.,*-+123!%@%&" + "(*&^%)(^$*(*&^%00532fs";
 		String[] testArr = text.split("[^0-9]");
 		int newArray[] = new int[testArr.length];
 
@@ -16,7 +17,7 @@ public class ExtractLargestNumber {
 			}
 		}
 
-		//finding largest int in the array
+		// finding largest int in the array
 		int max = newArray[0];
 		for (int i = 1; i < newArray.length; i++) {
 			if (newArray[i] > max)

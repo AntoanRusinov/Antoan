@@ -27,7 +27,7 @@ public class Casting {
 		camera1.snap();
 
 		// Upcasting
-		Machine machine2 = camera1;
+		Machine machine2 = new Camera();
 		machine2.start();
 		// error: machine2.snap();
 
