@@ -41,8 +41,8 @@ public class StaticAndFinal {
 
 		System.out.println("After: " + Thing.count);
 
-		thing1.name = "Idiot";
-		thing2.name = "Selqnin";
+		thing1.name = "John";
+		thing2.name = "Charlie";
 
 		thing1.showNameAndId();
 		thing2.showNameAndId();
