@@ -48,7 +48,7 @@ public class StaticAndFinal {
 		thing2.showNameAndId();
 
 		System.out.println(Math.PI);
-		
+
 		System.out.println("The lucky number is: " + Thing.LUCKY_NUMBER);
 
 	}

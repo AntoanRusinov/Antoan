@@ -10,7 +10,7 @@ public class SortArray {
 
 		Arrays.sort(array);
 
-		for(int element : array ){
+		for (int element : array) {
 			System.out.println(element);
 		}
 

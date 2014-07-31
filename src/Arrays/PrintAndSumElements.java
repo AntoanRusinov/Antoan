@@ -14,7 +14,7 @@ public class PrintAndSumElements {
 			total += array[i];
 		}
 		System.out.println("Total is " + total);
-		
+
 		// Finding the largest element
 		double max = array[0];
 		for (int i = 1; i < array.length; i++) {

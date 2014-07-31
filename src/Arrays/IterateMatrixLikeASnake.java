@@ -1,12 +1,11 @@
 package Arrays;
+
 public class IterateMatrixLikeASnake {
 
 	public static void main(String[] args) {
 
 		int[][] matrix = { { 1, 2, 3, 4 }, // row 0 values
-						   { 5, 6, 7, 8 }, 
-						   { 6, 5, 4, 3 }, 
-						   { 12, 15, 17, 20 } };
+				{ 5, 6, 7, 8 }, { 6, 5, 4, 3 }, { 12, 15, 17, 20 } };
 
 		for (int row = 0; row < matrix.length; row++) {
 			if (row % 2 == 0) {

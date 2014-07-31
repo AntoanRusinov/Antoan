@@ -19,7 +19,7 @@ class Person {
 		System.out.println("I get " + salary + " salary");
 	}
 
-	public int getSalary(){
+	public int getSalary() {
 		return salary;
 	}
 
@@ -57,6 +57,6 @@ public class DemoMethods {
 		person2.sayGender();
 		person2.setSalary(1500);
 		person2.getSalary();
-		
+
 	}
 }

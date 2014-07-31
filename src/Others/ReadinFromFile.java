@@ -20,7 +20,8 @@ public class ReadinFromFile {
 				System.out.println(line);
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("File doesn't exist or the path file is not correct!");
+			System.out
+					.println("File doesn't exist or the path file is not correct!");
 		}
 	}
 

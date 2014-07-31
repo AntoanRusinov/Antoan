@@ -3,7 +3,8 @@ package CollectionsFramework;
 public class GenericMethod {
 
 	// generic method printArray
-	// we create generic method when we want to use the same method for different input data:
+	// we create generic method when we want to use the same method for
+	// different input data:
 	// Integer, String, Double, Long, etc.
 	public static <E> void printArray(E[] inputArray) {
 		// Display array elements

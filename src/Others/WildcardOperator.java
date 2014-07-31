@@ -1,4 +1,5 @@
 package Others;
+
 public class WildcardOperator {
 
 	public static void main(String[] args) {
