@@ -18,6 +18,7 @@ public class WritingToFile {
 			try {
 				file.createNewFile();
 			} catch (IOException e) {
+				e.printStackTrace();
 				System.out.println("File " + file.toString()
 						+ "can't be created!");
 			}
