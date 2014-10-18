@@ -31,8 +31,7 @@ public class WritingToFile {
 				BufferedWriter bw = new BufferedWriter(new FileWriter(file));
 
 				boolean condition = true;
-				String a = "";
-				StringBuilder builder = new StringBuilder(a);
+				StringBuilder builder = new StringBuilder("");
 				while (condition) {
 					String enter = scan.nextLine();
 					if (enter.equals("EXIT")) {
