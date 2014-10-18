@@ -22,7 +22,6 @@ public class WritingToFile {
 				System.out.println("File " + file.toString()
 						+ "can't be created!");
 			}
-		} else {
 
 			try {
 				System.out.println("You can now write to your file!");
@@ -53,4 +52,3 @@ public class WritingToFile {
 		}
 
 	}
-}
