@@ -1,0 +1,18 @@
+package org.html.tags;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+
+public class RemoveHtmlTags {
+
+	public static void main(String[] args) throws IOException {
+
+		File textFile = new File("/home/antoan/Desktop/test.html");
+		String fileToString = FileUtils.readFileToString(textFile);
+		String result = fileToString.replaceAll("\\<.*?>", "");
+		System.out.println(result.trim());
+
+	}
+}
